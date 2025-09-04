@@ -1,3 +1,3 @@
-  setInterval(function() {
-    location.reload();
-  }, 5000);
+setInterval(function() {
+  window.location.href = window.location.pathname + "?t=" + new Date().getTime();
+}, 5000);
