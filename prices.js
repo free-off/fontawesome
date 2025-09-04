@@ -1,4 +1,3 @@
-/ crypto prices chart
-  document.addEventListener("dblclick", function () {
+  setInterval(function() {
     location.reload();
-  });
+  }, 5000);
